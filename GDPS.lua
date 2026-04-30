@@ -11,7 +11,7 @@ if playerGui:FindFirstChild("SeluwiaUI") then
 end
 
 local screenGui = Instance.new("ScreenGui")
-screenGui.Name = "SeluwiaUI"
+screenGui.Name = "DYHUB_Y_5116615261622"
 screenGui.ResetOnSpawn = false
 screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 screenGui.IgnoreGuiInset = true
@@ -183,7 +183,7 @@ local titleText = Instance.new("TextLabel")
 titleText.Size = UDim2.new(0, 200, 1, 0)
 titleText.Position = UDim2.new(0.5, -100, 0, 0)
 titleText.BackgroundTransparency = 1
-titleText.Text = "SELUWIA"
+titleText.Text = "DYHUB"
 titleText.TextColor3 = Color3.fromRGB(210, 210, 228)
 titleText.TextSize = 14 * fontSizeScale
 titleText.Font = Enum.Font.GothamBold
