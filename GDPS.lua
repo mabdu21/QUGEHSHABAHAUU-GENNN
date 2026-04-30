@@ -6,8 +6,8 @@ local MarketplaceService = game:GetService("MarketplaceService")
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
-if playerGui:FindFirstChild("SeluwiaUI") then
-    playerGui.SeluwiaUI:Destroy()
+if playerGui:FindFirstChild("DYHUB_Y_5116615261622") then
+    playerGui.DYHUB_Y_5116615261622:Destroy()
 end
 
 local screenGui = Instance.new("ScreenGui")
