@@ -1,4 +1,4 @@
--- [[ DYHUB DUPER - ULTIMATE HYBRID EDITION ]] --
+-- 5252
 local UserInputService = game:GetService("UserInputService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
@@ -30,7 +30,7 @@ local OpenCloseBtn = Instance.new("TextButton", ScreenGui)
 OpenCloseBtn.Size = UDim2.new(0, 120, 0, 35)
 OpenCloseBtn.Position = UDim2.new(0, 15, 0, 15)
 OpenCloseBtn.BackgroundColor3 = BG_COLOR
-OpenCloseBtn.Text = "DYHUB: OPEN"
+OpenCloseBtn.Text = "DYHUB"
 OpenCloseBtn.TextColor3 = TEXT_COLOR
 OpenCloseBtn.Font = Enum.Font.GothamBold
 local BtnCorner = Instance.new("UICorner", OpenCloseBtn)
@@ -53,7 +53,7 @@ local Header = Instance.new("Frame", MainFrame)
 Header.Size = UDim2.new(1, 0, 0, 50); Header.BackgroundTransparency = 1
 local Title = Instance.new("TextLabel", Header)
 Title.Size = UDim2.new(1, -20, 1, 0); Title.Position = UDim2.new(0, 20, 0, 0)
-Title.Text = "DYHUB DUPER V1"; Title.TextColor3 = TEXT_COLOR
+Title.Text = "DYHUB GEN V1"; Title.TextColor3 = TEXT_COLOR
 Title.Font = Enum.Font.GothamBold; Title.TextSize = 20; Title.TextXAlignment = "Left"; Title.BackgroundTransparency = 1
 
 -- --- [ SUCCESS LOG PANEL ] ---
@@ -223,7 +223,7 @@ local function createMainBtn(text, pos, color, func)
 end
 
 createMainBtn("NORMAL FIRE", UDim2.new(0.05, 0, 0.65, 0), Color3.fromRGB(45, 45, 50), function() runFire("NORMAL FIRE") end)
-createMainBtn("ULTRA BURST & DETECT", UDim2.new(0.05, 0, 0.75, 0), Color3.fromRGB(60, 60, 65), function() runFire("ULTRA BURST") end)
+createMainBtn("ALL FIRE", UDim2.new(0.05, 0, 0.75, 0), Color3.fromRGB(60, 60, 65), function() runFire("ULTRA BURST") end)
 
 -- --- [ DRAG & TOGGLE ] ---
 local function makeDraggable(obj, handle)
@@ -247,8 +247,7 @@ makeDraggable(MainFrame, Header)
 
 OpenCloseBtn.MouseButton1Click:Connect(function()
     MainFrame.Visible = not MainFrame.Visible
-    OpenCloseBtn.Text = MainFrame.Visible and "DYHUB: CLOSE" or "DYHUB: OPEN"
 end)
 
-addLog("DYHUB DUPER LOADED", SUCCESS_COLOR)
+addLog("DYHUB GEN V1 LOADED", SUCCESS_COLOR)
 addLog("Ready to scan...", TEXT_COLOR)
