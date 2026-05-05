@@ -6,7 +6,7 @@
     ██████╔╝   ██║   ██║  ██║╚██████╔╝██████╔╝    ██║     ██║  ██║╚██████╔╝
     ╚═════╝    ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═════╝     ╚═╝     ╚═╝  ╚═╝ ╚═════╝ 
 
-    DYHUB PRO v2.0
+    DYHUB PRO v2.1
     Author   : DYHUB
     Price    : 500 THB
     Tabs     : DUPE | GAMEPASS | SETTINGS
@@ -114,7 +114,7 @@ loadConfig()
 local WindUI
 local ok, err = pcall(function()
     WindUI = loadstring(game:HttpGet(
-        "https://raw.githubusercontent.com/Footagesus/WindUI/refs/heads/main/dist/init.lua"
+        "https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"
     ))()
 end)
 
